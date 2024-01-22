@@ -29,10 +29,10 @@ class Solution(object):
         Space Complexity-O(N)"""
 
         hashset=set()
-        for i in range(0,len(nums)):
-            if nums[i] in hashset:
+        for n in nums :
+            if n in hashset:
                 return True
             else:
-                hashset.add(nums[i])
+                hashset.add(n)
         return False
         
