@@ -9,4 +9,8 @@ class Solution(object):
             if nums[i]==nums[i+1]:
                 return True
         return False
+
+        """Better Solution
+        Time Complexity-O(NlogN)
+        Space Complexity-O(1)"""
         
